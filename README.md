@@ -1,4 +1,4 @@
-##Rick and Morty | Webapp
+##Rick and Morty | Webapp##
 
 To run the project locatlly you will need to:
 
