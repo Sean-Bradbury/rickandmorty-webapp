@@ -1,0 +1,29 @@
+@import '../../theming/colors.scss';
+
+.character-card {
+    height: 100%;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    position: relative;
+    background-color: $midBlue;
+    .character-card__skeleton-image {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -0.25rem;
+    }
+    .character-card__image {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+    }
+    .character-card__details {
+        padding: 1rem;
+        h5 {
+            padding: 0.25rem 0;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+    
+}
